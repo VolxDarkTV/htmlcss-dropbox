@@ -123,7 +123,7 @@ main{
     padding-top: 200px;
     margin: 0 auto;
     /* DEBUG */
-    background-color: brown;
+    /* background-color: brown; */
 }
 .internal-box{
     display: flex;
@@ -132,7 +132,7 @@ main{
     width: 1024px;
     /* DEBUG */
     /* height: 500px; */
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 
@@ -181,14 +181,14 @@ main{
     justify-content: space-between;
     height: auto;
     /* DEBUG */
-    background-color: rgb(246, 255, 127, 0.3);
+    /* background-color: rgb(246, 255, 127, 0.3); */
 }
 /* Cards structure */
 .card{
     height: auto;
     width: 300px;
     /* DEBUG */
-    background-color: rgb(251, 255, 0);
+    /* background-color: rgb(251, 255, 0); */
 }
 .icon-plan{
     display: flex;
@@ -196,14 +196,14 @@ main{
     align-items: center;
     height: 40px;
     width: 100%;
-    border: solid black 1px;
+    border: solid rgb(0, 0, 0, 0.2) 1px;
 }
 /* Text Plan */
 .text-plan{
     height: auto;
     width: 100%;
     padding: 30px 25px;
-    border: solid black 1px;
+    border: solid rgb(0, 0, 0, 0.2) 1px;
 }
 .space{
     margin-bottom: 20px;
@@ -217,7 +217,7 @@ main{
     width: 100%;
     margin-top: 50px;
     /* DEBUG */
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 .info-plan p{
     margin-bottom: 10px;
@@ -243,4 +243,109 @@ main{
 .check-list-container p i{
     color: blue;
     font-size: 16px;
+}
+.check-list-container ul{
+    list-style-image: url(../img/check-solid.svg);
+    /* cercare come modificare il size dell'immagine = list-style-image */
+    /* list-style-image: ; */
+    padding-left: 10%;
+}
+
+
+
+/* Seller Office */
+.seller-office{
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    border: solid rgb(0, 0, 0, 0.2) 1px;;
+    padding-bottom: 30px;
+    /* DEBUG */
+    /* background-color: rgb(0, 177, 15); */
+}
+.seller-office-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border: solid rgb(0, 0, 0, 0.2) 1px;;
+}
+.seller-office-info{
+    margin: 0 auto;
+    width: 95%;
+}
+.enterprise{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.seller-office-text{
+    width: 75%;
+    margin-top: 50px;
+}
+
+/* Partner */
+#business-cards-space{
+    margin-top: 50px;
+}
+.partner{
+    display: flex;
+    height: auto;
+    width: 100%;
+    /* DEBUG */
+    /* background-color: blueviolet; */
+}
+.partner-img{
+    width: 600px;
+}
+.partner-img img{
+    width: 100%;
+}
+.partner-info{
+    width: calc(100% - 600px);
+    height: auto;
+    margin-top: 50px;
+    margin-left: 60px;
+    /* DEBUG */
+    /* background-color: darkgray; */
+}
+.partner-info p{
+    margin: 20px 0;
+}
+.partner-b{
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border: solid black 1px;
+}
+/* Dropbox Business */ 
+.business-container{
+    margin-top: 100px;
+}
+.business-container h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.business-img{
+    width: 100%;
+}
+.business-img img{
+    width: 100%;
+}
+.business-info-txt{
+    margin-top: 40px;
+}
+/* user-info */
+.user-info{
+    height: auto;
+    width: 100%;
+    margin-top: 200px;
+}
+.user-info h2{
+    margin-bottom: 50px;
+}
+#cliens-info{
+    color: rgb(30, 47, 204);
 }
