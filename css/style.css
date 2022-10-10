@@ -141,6 +141,7 @@ main{
     display: flex;
     gap: 50px;
     margin-top: 70px;
+    margin-bottom: 50px;
 }
 .flag{
     display: flex;
@@ -239,18 +240,13 @@ main{
 }
 .check-list-container p{
     font-size: small;
+    text-indent: -8%;
+    margin-left: 10px;
 }
 .check-list-container p i{
     color: blue;
     font-size: 16px;
 }
-.check-list-container ul{
-    list-style-image: url(../img/check-solid.svg);
-    /* cercare come modificare il size dell'immagine = list-style-image */
-    /* list-style-image: ; */
-    padding-left: 10%;
-}
-
 
 
 /* Seller Office */
