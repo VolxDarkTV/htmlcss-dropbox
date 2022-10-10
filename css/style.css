@@ -71,6 +71,7 @@ header{
 main{
     padding-top: 100px;
 }
+/* jumbotron */
 #jumbotron{
     height: 650px;
     background-color: rgb(109, 185, 236);
@@ -90,7 +91,7 @@ main{
     /* background-color: aqua; */
 }
 
-/* font-size */
+/* jumbotron font-size */
 #jumbotron-items h2{
     font-size: 80px;
 }
@@ -107,7 +108,139 @@ main{
     left: 350px;
     top: 250px;
 }
+#jumbo-down-arrow{
+    color: black;
+}
 #jumbo-arrow{
     margin-top: 80px;
     font-size: 50px;
+}
+
+/* central main */
+.central-box{
+    height: auto;
+    width: 1024px;
+    padding-top: 200px;
+    margin: 0 auto;
+    /* DEBUG */
+    background-color: brown;
+}
+.internal-box{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    width: 1024px;
+    /* DEBUG */
+    /* height: 500px; */
+    background-color: aquamarine;
+}
+
+
+/* Flag */
+#flag-container{
+    display: flex;
+    gap: 50px;
+    margin-top: 70px;
+}
+.flag{
+    display: flex;
+}
+.circle-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: rgb(0, 15, 226);
+}
+#color{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+}
+#blue-flag{
+    border: solid black 1px;
+}
+#white-flag{
+    background-color: #fff;
+    border: solid black 1px;
+}
+.flag-space{
+    margin-left: 5px;
+}
+
+
+/* central-box font-size */
+.internal-box div h2{
+    font-size: 35px;
+}
+
+.line{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    /* DEBUG */
+    background-color: rgb(246, 255, 127, 0.3);
+}
+/* Cards structure */
+.card{
+    height: auto;
+    width: 300px;
+    /* DEBUG */
+    background-color: rgb(251, 255, 0);
+}
+.icon-plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    border: solid black 1px;
+}
+/* Text Plan */
+.text-plan{
+    height: auto;
+    width: 100%;
+    padding: 30px 25px;
+    border: solid black 1px;
+}
+.space{
+    margin-bottom: 20px;
+}
+.pay-period{
+    opacity: 50%;
+}
+/* Info Plan */
+.info-plan{
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    /* DEBUG */
+    background-color: aquamarine;
+}
+.info-plan p{
+    margin-bottom: 10px;
+}
+.cards-button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+/* CheckList */
+.check-list-container{
+    height: auto;
+    width: 100%;
+    margin: 100px 0;
+    background-color: rgb(255, 255, 255);
+}
+.check-list-container h5{
+    margin-bottom: 20px;
+}
+.check-list-container p{
+    font-size: small;
+}
+.check-list-container p i{
+    color: blue;
+    font-size: 16px;
 }
