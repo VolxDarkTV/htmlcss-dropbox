@@ -68,6 +68,7 @@ header{
     padding: 15px;
     color: #fff;
     background-color: rgb(17, 71, 187);
+    cursor: pointer;
 }
 
 /* Main */
@@ -323,6 +324,7 @@ main{
     padding: 10px;
     border: none;
     border: solid black 1px;
+    cursor: pointer;
 }
 /* Dropbox Business */
 .business-container{
@@ -440,4 +442,38 @@ main{
 
 .under-brand-logo{
     width: 100px;
+}
+
+/* Call to Action Free Trial */
+.container-dropbox-business-free-trial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+.dropbox-business-free-trial{
+    display: flex;
+    width: 55%;
+    height: 40%;
+    padding: 20px;
+    /* DEBUG */
+    /* background-color: #fff; */
+}
+.dropbox-business-free-trial div{
+    width: 700px;
+    height: 120px;
+    margin-right: 20px;
+}
+.dropbox-business-free-trial h2{
+    font-size: 50px;
+    color: rgb(102, 6, 6);
+}
+/* Button style */
+#business-free-trial{
+    padding: 20px 50px;
+    color: #000;
+    background-color: #fff;
+    box-shadow: rgb(0, 0, 0, 0.2) 2px -1px 10px;
 }
