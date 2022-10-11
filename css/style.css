@@ -7,7 +7,10 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-
+.line-under-text{
+    opacity: 0.3;
+    margin: 40px 0;
+}
 /* Header */
 header{
     display: flex;
@@ -222,17 +225,22 @@ main{
 }
 .info-plan p{
     margin-bottom: 10px;
+    margin-left: 15px;
+    text-indent: -8%;
 }
 .cards-button{
     display: flex;
     justify-content: center;
     width: 100%;
 }
+.under-business-text{
+    width: 50px;
+}
 /* CheckList */
 .check-list-container{
     height: auto;
     width: 100%;
-    margin: 100px 0;
+    /* margin: 100px 0; */
     background-color: rgb(255, 255, 255);
 }
 .check-list-container h5{
@@ -241,7 +249,7 @@ main{
 .check-list-container p{
     font-size: small;
     text-indent: -8%;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 .check-list-container p i{
     color: blue;
@@ -316,7 +324,7 @@ main{
     border: none;
     border: solid black 1px;
 }
-/* Dropbox Business */ 
+/* Dropbox Business */
 .business-container{
     margin-top: 100px;
 }
@@ -344,4 +352,92 @@ main{
 }
 #cliens-info{
     color: rgb(30, 47, 204);
+}
+
+
+/* Brand Show */
+.brand-show{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100vw;
+    height: 600px;
+    margin-top: 150px;
+    /* DEBUG */
+    /* background-color: tomato; */
+}
+.side-square{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30vw;
+    height: 600px;
+    /* DEBUG */
+    background-color: aquamarine;
+}
+
+.brand-show-square{
+    height: 300px;
+    width: 15vw;
+}
+.brand-show-square .border-effect img{
+    width: 50%;
+    /* Color filter img */
+}
+.border-effect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 15vw;
+}
+/* Central info box */
+.container-central-info-box{
+    width: 40vw;
+    height: 600px;
+    padding: 40px;
+}
+.central-info-box img{
+    width: 40%;
+}
+.info-text-align .main-brand-info{
+    /* margin-top: 80px; */
+}
+.info-text-align .founder-info{
+    margin-top: 50px;
+}
+
+
+
+/* Border Effect */
+.border-effect:hover{
+    border: solid rgb(255, 255, 255, 0.65) 20px;
+}
+
+/* square color */
+#color-designit{
+    background-color: rgb(156, 178, 133);
+}
+#color-arizona{
+    background-color: rgb(124, 0, 31);
+}
+#color-florida{
+    background-color: rgb(47, 102, 221);
+}
+#color-topps{
+    background-color: rgb(189, 0, 0);
+}
+#color-world-bicycle{
+    background-color: rgb(150, 0, 0);
+}
+#color-hearst{
+    background-color: rgb(169, 231, 255);
+}
+#color-lonely{
+    background-color: rgb(1, 1, 255);
+}
+#color-clear-channel{
+    background-color: rgb(255, 196, 0);
+}
+
+.under-brand-logo{
+    width: 100px;
 }
