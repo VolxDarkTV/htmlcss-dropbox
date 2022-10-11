@@ -451,7 +451,7 @@ main{
     align-items: center;
     height: 400px;
     width: 100%;
-    background-color: cornflowerblue;
+    background-color: rgb(171, 192, 231);
 }
 .dropbox-business-free-trial{
     display: flex;
