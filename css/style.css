@@ -54,6 +54,9 @@ header{
     align-items: center;
     list-style: none;
 }
+.functions li:hover{
+text-decoration: underline;
+}
 .nav-link{
     text-decoration: none;
     color: black;
@@ -70,7 +73,9 @@ header{
     background-color: rgb(17, 71, 187);
     cursor: pointer;
 }
-
+.button:hover{
+    background-color: rgb(17, 71, 187, 0.9);
+}
 /* Main */
 main{
     padding-top: 100px;
@@ -477,7 +482,9 @@ main{
     background-color: #fff;
     box-shadow: rgb(0, 0, 0, 0.2) 2px -1px 10px;
 }
-
+#business-free-trial:hover{
+    background-color: rgb(214, 214, 214);
+}
 /* questions-and-answeres */
 .questions-and-answeres{
     height: auto;
@@ -540,6 +547,9 @@ footer{
 .footer-column-section ul li a{
     text-decoration: none;
     color: #fff;
+}
+.footer-column-section ul li a:hover{
+    text-decoration: underline;
 }
 
 
