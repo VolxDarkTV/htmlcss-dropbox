@@ -477,3 +477,38 @@ main{
     background-color: #fff;
     box-shadow: rgb(0, 0, 0, 0.2) 2px -1px 10px;
 }
+
+/* questions-and-answeres */
+.questions-and-answeres{
+    height: auto;
+    width: 100%;
+    /* DEBUG */
+    /* background-color: rgb(0, 0, 0, 0.2); */
+}
+.questions-and-answeres-space{
+    margin-top: 30px;
+}
+.questions-and-answeres h2{
+    font-size: 40px;
+}
+.question-box{
+    display: flex;
+    justify-content: space-between;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    line-height: 100px;
+}
+.question-arrow-box{
+    margin-right: 40px;
+}
+
+/* Footer */
+footer{
+    height: 600px;
+    background-color: #000;
+    margin-top: 150px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
