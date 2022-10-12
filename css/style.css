@@ -387,6 +387,7 @@ main{
 }
 .brand-show-square .border-effect img{
     width: 50%;
+    filter: invert(1);
     /* Color filter img */
 }
 .border-effect{
