@@ -200,6 +200,7 @@ main{
 .card{
     height: auto;
     width: 300px;
+    border: solid rgb(0, 0, 0, 0.2) 1px;
     /* DEBUG */
     /* background-color: rgb(251, 255, 0); */
 }
@@ -209,14 +210,13 @@ main{
     align-items: center;
     height: 40px;
     width: 100%;
-    border: solid rgb(0, 0, 0, 0.2) 1px;
+    border-bottom: solid rgb(0, 0, 0, 0.2) 1px;
 }
 /* Text Plan */
 .text-plan{
     height: auto;
     width: 100%;
     padding: 30px 25px;
-    border: solid rgb(0, 0, 0, 0.2) 1px;
 }
 .space{
     margin-bottom: 20px;
@@ -338,9 +338,13 @@ main{
 .business-container{
     margin-top: 100px;
 }
-.business-container h2{
-    font-size: 40px;
+.business-container h3{
+    font-size: 25px;
     margin-bottom: 50px;
+}
+.card-second{
+    height: auto;
+    width: 300px;
 }
 .business-img{
     width: 100%;
