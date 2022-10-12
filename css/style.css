@@ -54,13 +54,15 @@ header{
     align-items: center;
     list-style: none;
 }
-.functions li:hover{
-text-decoration: underline;
-}
 .nav-link{
     text-decoration: none;
     color: black;
     margin-left: 20px;
+}
+/* Nav Link Border Effect */
+.nav-link:hover{
+    border-bottom: solid 1px;
+    padding-bottom: 38px;
 }
 /* BUTTON */
 .button{
