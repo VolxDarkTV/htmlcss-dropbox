@@ -63,6 +63,7 @@ header{
 .nav-link:hover{
     border-bottom: solid 1px;
     padding-bottom: 38px;
+    transition: 0.4s;
 }
 /* BUTTON */
 .button{
