@@ -510,7 +510,7 @@ main{
     line-height: 100px;
 }
 .question-box:hover{
-    background-color: #ccc;
+    background-color: #e4e4e4;
 }
 /* Answer spawn */
 .answer-spawn{
