@@ -506,6 +506,16 @@ main{
     border-bottom: solid rgb(0, 0, 0, 0.3) 1px;
     line-height: 100px;
 }
+.question-box:hover{
+    background-color: #ccc;
+}
+/* Answer spawn */
+.answer-spawn{
+    display: none;
+}
+.container-answer-spawn:hover .answer-spawn{
+    display: block;
+}
 .question-arrow-box{
     margin-right: 40px;
 }
